@@ -1,0 +1,13 @@
+
+reference:
+    gtf: reference/genome_ref.gtf
+inputDir: input
+sample: sample.txt
+geneicDir: geneic
+totalReadsDir: totalReads
+outputDir: output
+UTRFile: UTRExtension.txt
+countsDir: Counts
+finalUTRFile: UTRExtension_final.txt
+metadata: metadata.txt
+finalUTR: Responsive_UTRExtension.txt

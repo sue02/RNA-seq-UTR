@@ -1,0 +1,80 @@
+#1558386550
+sulbha has entered /depot/bioinfo/Projects/Kal/stressUTRextension/results/UTRExtension/UTRExtension/test from /depot/bioinfo/Projects/Kal/stressUTRextension/results/UTRExtension/UTRExtension
+#1558386550
+cd test/
+#1558386556
+cp ../*txt .
+#1558386556
+l
+#1558386563
+cp ../config.yaml .
+#1558386572
+cp ../environment.yaml .
+#1558386581
+cp ../utr_pipeline.v1.py .
+#1558386607
+l
+#1558386611
+l ../
+#1558386623
+cp ../README.md .
+#1558386624
+l
+#1558386631
+l ../
+#1558386642
+cp ../cluster.json .
+#1558386647
+cp ../DESEq2.r .
+#1558386660
+git init
+#1558386662
+git add README.md
+#1558386667
+git remote add origin https://github.com/sue02/RNA-seq-UTR.git
+#1558386671
+git push -u origin master
+#1558386682
+l
+#1558386688
+ls -ls
+#1558386690
+ls -la
+#1558386697
+rm -rf .git/
+#1558386700
+git push -u origin master
+#1558386710
+sulbha has exited /depot/bioinfo/Projects/Kal/stressUTRextension/results/UTRExtension/UTRExtension/test for ..
+#1558386798
+sulbha has entered /depot/bioinfo/Personal_Directories/Sulbha/jupyter/UTR/test from /depot/bioinfo/Personal_Directories/Sulbha/jupyter/UTR
+#1558386798
+cd test/
+#1558386799
+;
+#1558386800
+l
+#1558386802
+ls -la
+#1558386813
+git init
+#1558386813
+git add README.md
+#1558386813
+git commit -m "first commit"
+#1558386814
+git remote add origin https://github.com/sue02/RNA-seq-UTR.git
+#1558386815
+git push -u origin master
+#1558386871
+git config credential.helper store
+#1558386873
+git push -u origin master
+#1558386947
+git config credential.helper store
+#1558386951
+git push -u origin master
+#1558386989
+git config credential.helper store
+#1558386991
+git push -u origin master

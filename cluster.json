@@ -1,0 +1,76 @@
+{
+    "gene_bam": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 5,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+},
+    "total_reads": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 1,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+    },
+
+  "five_prime_UTR_minus": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 1,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+    },
+  "five_prime_UTR_plus": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 1,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+    },
+ "three_prime_UTR_minus": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 1,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+    },
+   "three_prime_UTR_plus": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 1,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+    },
+   "get_counts_UTR": {
+        "queue": "bioinf",
+        "time": "48:00:00",
+        "n": 1,
+        "mem": 45000,
+        "name": "{rule}.{wildcards}",
+        "output": "logs/{rule}.{wildcards}.out",
+        "error": "logs/{rule}.{wildcards}.err",
+        "email": "sulbha@purdue.edu"
+    }
+
+
+
+}
