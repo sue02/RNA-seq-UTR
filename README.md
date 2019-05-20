@@ -24,7 +24,7 @@ conda activate snakemake_py2
 ## Create workflow
 snakemake -s utr_pipeline.v1.py --configfile config.yaml --dag | dot -Tpng > dag.png
 
-![Workflow.](https://github.rcac.purdue.edu/BioinformaticsCore/UTRExtension/blob/master/dag.png)
+![Workflow.](https://github.com/sue02/RNA-seq-UTR/blob/master/dag.png)
 
 ## Command for the pipeline
 snakemake -s utr_pipeline.v1.py --configfile config.yaml -j 30 --cluster-config cluster.json --cluster "qsub -q {cluster.queue} -l nodes=1:ppn={cluster.n} -l walltime={cluster.time} -e {cluster.error} -o {cluster.output} -N {cluster.name} -M {cluster.email}"  > utr_pipeline.log  2>&1 &
