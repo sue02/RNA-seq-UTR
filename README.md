@@ -4,7 +4,8 @@
 ## Identification of UTR Extensions
 * A computational pipeline was designed to identify 5’/3’ UTR extensions in RNA-seq data (Figure 1).
 
-![Schematic representation of computational pipeline for identification 5’/3' UTR extensions.](https://github.rcac.purdue.edu/BioinformaticsCore/UTRExtension/blob/master/workflow.png)
+![Schematic representation of computational pipeline for identification 5’/3' UTR extensions.]
+(https://github.com/sue02/RNA-seq-UTR/blob/master/workflow.png)
 * Using 10 bp window and using 5’ start and 3’ end of each gene the 5’/3’ extensions were contiguously assembled on either side of the gene. 
 * The window of 10bp was extended to next 10 bp if the RPKM >=1. 
 * The RPKM values of these windows were calculated if the reads mapped exclusively to the intergenic regions, the reads partially mapped to the genic and intergenic regions were not considered in the RPKM calculation. 
